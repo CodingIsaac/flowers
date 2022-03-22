@@ -1,0 +1,106 @@
+.header{
+     width: 100%;
+    /* max-width: 1100px; */
+    height: 100vh;
+    background-image: url('images/c.jpg');
+    background-size: cover;
+    color: seashell;
+    background-position: center;
+    margin-right: 40px;
+    /* border: 1px solid whitesmoke; */
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    box-shadow: 2px 2px 12px;
+    /* border: 3px solid red; */
+    /* color: seashell; */
+    /* margin-top: 2%; */
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-decoration: none;
+    /* color: seashell; */
+
+}
+nav ul li {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-decoration: none;
+    margin: 0 50px;
+    justify-content: center;
+    align-items: center;
+    /* color: seashell; */
+    /* text-decoration: none; */
+}
+.logo{
+    width: 50px;
+    height: 50px;
+}
+a{
+    text-decoration: none !important;
+    color: rgb(255, 245, 238) !important;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+.flag{
+    /* border: 1px solid white; */
+    /* color: rgb(255, 245, 238); */
+    margin-top: 3%;
+    cursor: pointer;
+}
+nav ul li :hover{
+    color: rgb(123, 201, 231) !important;
+}
+.text-box{
+    /* border: 1px solid white; */
+    margin-top: 15%;
+    font-size: 22px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    margin-left: 60px !important;
+    /* margin-right: 5%; */
+}
+.text-box h1{
+    font-size: 85px;
+    font-weight: 500;
+    line-height: 100px;
+    margin-bottom: 10px;
+}
+.know-btn{
+    outline: none;
+    border: none;
+    font-size: 16px;
+    background:#ff3e3b;
+    color: #ffffff;
+    padding: 14px 40px;
+    cursor: pointer;
+}
+.download{
+    color: rgb(5, 5, 5) !important;
+    /* margin: 2rem 2rem; */
+    /* position: absolute; */
+    /* right: 7px; */
+    /* bottom: 60px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    right: 7%;
+
+
+}
+.button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    margin: 33px 4px;
+}

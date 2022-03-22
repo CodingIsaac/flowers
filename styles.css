@@ -1,0 +1,307 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    color: rgb(17, 9, 9);
+    line-height: 1.9;
+}
+.logo {
+    color: black;
+}
+ul{
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+h1, h2 {
+    font-weight: 300;
+    line-height: 1.5;
+}
+img{
+    width: 100%;
+}
+.navbar{
+    background-color: rgb(245, 244, 244);
+    height: 70px;
+}
+.navbar ul {
+    display: flex;
+}
+.navbar a {
+    color: black;
+    padding: 10px;
+    margin: 0 5px;
+}
+.navbar a :hover {
+    border-bottom: 3px #ff1 solid;
+}
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+}
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+/* Showboy */
+.showboy{
+    background-color: rgb(58, 122, 124);
+    color: rgb(236, 231, 209);
+    height: 400px;
+    border: 1px solid red;
+    
+}
+.showboy h1 {
+    font-size: 40px;
+}
+.showboy p {
+    margin: 10px 0;
+}
+.grid {
+    display: flex;
+    grid-template-columns: 3fr 3fr;
+    gap: 30px;
+    /* justify-content: center; */
+    align-items: center;
+    height: 100%;
+}
+.showboy .grid{
+    grid-template-columns: 55% 45%;
+    gap: 40px;
+    overflow: visible;
+}
+.card{
+    background-color: rgb(240, 240, 240);
+    border-radius: .5rem;
+    box-shadow: 0 3px 10pc rgba(red, green, blue, alpha);
+    width: 60%;
+    padding: 10px;
+    color: rgb(2, 2, 2);
+    margin-top: 10%;
+}
+.showboy-form{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    z-index: 100;
+}
+.form-control{
+margin: 40px 0;
+}
+.showboy-form input[type='text'],
+.showboy-form input[type='email'] {
+    border-bottom:1px solid red;
+    width: 100%;
+    padding: 3px;
+}
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+    border: 1px solid skyblue;
+    border-radius: 1rem;
+    color: white;
+    background-color: skyblue;
+}
+ .btn-outline{
+     background-color: transparent;   
+    
+}
+/* .showboy::before, */
+.showboy::after{
+    content: '';
+    height: 100px;
+    position: absolute;
+    /* border: 1px solid yellow; */
+    /* bottom: 10px; */
+    margin-top: -3.2rem;
+    right: 0;
+    left: 0;
+    background: rgb(58, 122, 124);
+    transform: skewY(-3deg);
+    -webkit-transform: skewY(-3deg);
+    -moz-transform: skewY(-2deg);
+    -ms-transform: skewY(-2deg);
+}
+.stackmodule {
+    border: 1px solid rgb(105, 85, 85);
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    width: 80%;
+    height: 20%;
+    color: honeydew;
+    margin: auto;
+    text-align: center;
+    
+}
+.stack {
+    border: 1px solid orange;
+    width: 30%;
+    margin-top: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.heading{
+    border: 1px solid lightsalmon;
+    margin-top: 220px;
+    background-color: rgb(58, 122, 124);
+    color: honeydew;
+    
+}
+img{
+    border: 1px solid peru;
+    width: auto;
+    justify-content: center;
+    height: 20rem;
+    /* object-fit: cover; */
+    align-content: center;
+}
+    
+.stackpro{
+    border: 1px solid rgb(42, 24, 59);
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* dimension */
+.dimention{
+    border: 1px solid darkorchid;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* margin: 0 5px; */
+    margin: 5px 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* overflow-y: scroll; */
+}
+.fronter1{
+    border: 1px solid fuchsia;
+    height: 200px;
+    width: 30%;
+    background-image: url('Images/money-2724241.jpg');
+    /* margin: 0 20px; */
+    margin: 10px 10px;
+    align-items: center;
+    text-align: center;
+    
+    
+    }
+.fronter2{
+        border: 1px solid fuchsia;
+        height: 200px;
+        width: 30%;
+        background-image: url('Images/law.jpg');
+        /* margin: 0 20px; */
+        margin: 10px 10px;
+        align-items: center;
+        text-align: center;
+        
+        
+        }
+        .fronter3{
+            border: 1px solid fuchsia;
+            height: 200px;
+            width: 30%;
+            background-image: url('Images/law.jpg');
+            /* margin: 0 20px; */
+            margin: 10px 10px;
+            align-items: center;
+            text-align: center;
+            
+            
+            }
+            .fronter4{
+                border: 1px solid fuchsia;
+                height: 200px;
+                width: 30%;
+                background-image: url('Images/law.jpg');
+                /* margin: 0 20px; */
+                margin: 10px 10px;
+                align-items: center;
+                text-align: center;
+                
+                
+                }
+                .fronter5{
+                    border: 1px solid fuchsia;
+                    height: 200px;
+                    width: 30%;
+                    background-image: url('Images/law.jpg');
+                    /* margin: 0 20px; */
+                    margin: 10px 10px;
+                    align-items: center;
+                    text-align: center;
+                    
+                    
+                    }
+                    .fronter6{
+                        border: 1px solid fuchsia;
+                        height: 200px;
+                        width: 30%;
+                        background-image: url('Images/money-2724241.jpg');
+                        /* margin: 0 20px; */
+                        margin: 10px 10px;
+                        align-items: center;
+                        text-align: center;
+                        
+                        
+                        }
+                        .fronter7{
+                            border: 1px solid fuchsia;
+                            height: 200px;
+                            width: 30%;
+                            background-image: url('Images/money-2724241.jpg');
+                            /* margin: 0 20px; */
+                            margin: 10px 10px;
+                            align-items: center;
+                            text-align: center;
+                            
+                            
+                            }
+                            .fronter8{
+                                border: 1px solid fuchsia;
+                                height: 200px;
+                                width: 30%;
+                                background-image: url('Images/money-2724241.jpg');
+                                /* margin: 0 20px; */
+                                margin: 10px 10px;
+                                align-items: center;
+                                text-align: center;
+                                
+                                
+                                }
+                                
+                            .fronter9{
+                                border: 1px solid fuchsia;
+                                height: 200px;
+                                width: 30%;
+                                background-image: url('Images/money-2724241.jpg');
+                                /* margin: 0 20px; */
+                                margin: 10px 10px;
+                                align-items: center;
+                                text-align: center;
+                                
+                                
+                                }
+
+.aura{
+    display:run-in;
+    height: 0;
+    opacity: 1;
+    transition-delay: 0s;
+    transition-duration: 0.4s;
+}
+.aura:hover{
+    color: springgreen;
+}

@@ -1,0 +1,215 @@
+section{
+    
+    width: 100%;
+    height: 95vh;
+    /* background-image: url('Images/background.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid rgb(53, 28, 28);
+    background-color: skyblue;
+    background-image: url('Images/cakro.jpg');
+
+}
+.logo {
+    border: 2px solid red;
+    background-color: skyblue;
+    margin: 40px 150px;
+}
+
+.model{
+    height: 560px;
+    position: absolute;
+    bottom: 0px;
+    left: 70%;
+    transform: translateX(-30%);
+    margin-bottom: 70px;
+    margin-left: -40px;
+    /* margin-top: -40px; */
+
+    width: 22%;
+
+}
+.section-container{
+    border: 1px solid red;
+    margin: 50px 150px;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+.true-content{
+    border: 1px solid rebeccapurple;
+    margin: 40px 150px;
+    justify-content: center;
+    align-items: center;
+    font-family: calibri;
+    font-weight: bold;
+    color: snow;
+    text-align: justify;
+}
+.gugu-btn{
+    margin: 0px 20px;
+    
+    /* color: snow; */
+    /* border: 1px solid ; */
+}
+button{
+    border: 3px solid tomato;
+    justify-content: space-between;
+    color: snow;
+    background-color: skyblue;
+    /* border-bottom: steelblue; */
+    /* box-shadow: 2px 2px 12px; */
+    margin-right: 40px;
+    size: 30px;
+}
+/* i{
+    color: steelblue;
+    margin: 0 .3rem;
+} */
+.btn{
+    size: 30px;
+}
+.style{
+    border:3px solid red;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    margin-right: 150px;
+}
+.button-3{
+    border-radius: 50%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0 0 40px 0;
+    background-color: whitesmoke;
+}
+.icon{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+
+}
+.fa-chevron-down{
+    color: skyblue;
+}
+.love-container{
+    height: 400px;
+    background-color: #ffffff;
+    color: rgb(196, 194, 194);
+    /* margin: 40px 0px; */
+    border: 2px solid springgreen;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+.text-container{
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 2% 15% 0 10%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid forestgreen;
+    color: black;
+    padding: 50px 0 50px 0;
+    width: 75%;
+    ;
+}
+.section-tab{
+    border: 1px solid red;
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 650px;
+   
+}
+.settle-container{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    justify-content: center;
+    color: rgb(95, 95, 170);
+    width: 40%;
+    
+    
+}
+.settle-container p {
+    font-size: 1.5rem;
+}
+.imago{
+    width: 25%;
+    margin-left: 5%;
+}
+.section-tab2{
+    border: 1px solid red;
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 650px;
+    background-image: url('images/drops-g97dbae040_1920.jpg');
+   
+}
+
+.settle-container2{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    width: 40%;
+    /* background-image: url('images/drops-g97dbae040_1920.jpg') */
+    
+}
+.image-container{
+    height: 400px;
+    width: 100%;
+    background-image: url('images/dining-room-g843591d2a_1280.jpg');
+    margin-top: -1rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.box-container{
+    box-shadow: 2px 2px 12px;
+    width: 500px;
+    height: 200px;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    font-family: calibri;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid firebrick;
+    background-color: white;
+    opacity: 9;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    margin: 15px 0 15px 30rem;
+    border-radius: 2rem;
+}
+.false{
+    border-radius: 2rem;
+    background-image: radial-gradient(right skyblue white);
+
+}
+.final-container{
+    background-image: url('images/final\ thoughts.png');
+    height: 1000px;
+}
+.final-text{
+    text-align: center;
+    align-items: center;
+    color: skyblue;
+    background-size: contain;
+}
